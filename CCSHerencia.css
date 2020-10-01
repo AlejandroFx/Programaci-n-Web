@@ -1,0 +1,57 @@
+/*Herencia*/
+/*Se utiliza el valor de inherit*/
+
+
+a{
+    color: inherit; /* Se le dice que se seleccione el color del elemento padre*/
+
+}
+
+p{
+    color: green !important;
+}
+
+#parrafo{
+color: salmon;
+}
+
+.parrafo{
+color: turquoise;
+}
+
+/*
+Etiqueta-> 1
+Clases -> 10
+ID -> 100
+Estilo en linea -> 1000
+!important -> Gana a todo
+*/
+
+/*--------------------------------------*/
+
+/* Modelo de caja*/
+h2{
+    background: lightblue;
+    height: 100 px;
+    width: 100 px;
+}
+div{
+    background: lightgreen;
+}
+a{
+    background: lightgreen;
+    height: 100px;
+}
+span{
+    background: lightgreen;
+    height: 1500px;
+}
+
+.caja1{
+background-color: lightgreen;
+padding: 10px;
+margin: 20px;
+border: 2px solid black;
+box-sizing: border-box;
+}
+
