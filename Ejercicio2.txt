@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio CCS 2</title>
+    <link rel="stylesheet" href="CCSEjercicio2.css">
+</head>
+<body>
+    <header>
+<img src="img/logo.jpg" alt="logo" id="logo">
+<h1 class="titulo">MI TEMA EN HTML5</h1>
+
+<img src="img/red1.png">
+<img src="img/red2.png">
+<img src="img/red3.png">
+    
+        <nav>
+
+            <ul>
+                <li>INICIO</li>
+                <li>TUTORIALES</li>
+                <li>VIDEOS</li>
+                <li>JAVASCRIPT</li>
+                <li>HTML5 Y CSS3</li>
+                <li>RECURSOS</li>
+                <li>ADMINISTRADOR</li>
+            </ul>
+
+        </nav>
+
+</header>
+    <section class=seccion1>
+        <article>
+            <img src="img/slider.jpg" alt="">
+        </article>
+        <article class="secc1art2">
+            <h2>Titulo del Post</h2>
+            <img src="img/img-post.jpg" alt="imagen del post">
+
+            <div>
+                <span class="autor-post"></span>
+            </div>
+        </article>
+    </section>
+    <aside>
+
+    </aside>
+</body>
+</html>

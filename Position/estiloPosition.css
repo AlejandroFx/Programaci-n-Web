@@ -1,0 +1,54 @@
+/*POSITION
+Flujo de html: Es el orden en el que aparecen los elementos en el 
+dpcumento
+*/
+
+.parrafo1{
+    visibility: hidden; /*Esconde el elemento y se reserva el espacio*/
+    display: none; /*oculta el elemento y NO se reserva el espacio*/
+
+}
+
+.contenedor1{
+    background-color: chocolate;
+    position: relative;
+    /**/
+
+}
+
+.menu{
+    background: brown;
+    padding: 10px;
+    /*position: fixed;*/
+    text-align: center;
+    font-size: 20px;
+    position: sticky;
+    top: 0;
+    
+}
+.titulo{
+    margin: 0;
+}
+
+/*Sticky*/
+.banner{
+    height: 200px;
+    background: darkblue;
+    color: darkgray;
+    text-align: center;
+    line-height: 150px;
+}
+
+/*Display
+Permite definir como se comporta una caja con respecto
+a las adyacentes
+
+inline, block, inline. block, none
+*/
+
+.linea{
+    background: chocolate;
+}
+.bloque{
+    background: yellow;
+}

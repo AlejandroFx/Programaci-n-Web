@@ -1,0 +1,145 @@
+body{
+    margin: 0 auto;
+    max-width: 1024px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+header{
+position: relative;
+}
+header nav{
+    border-radius: 8px;
+    width: 97%;
+    margin: 0 auto;
+}
+
+header nav ul{
+    
+    padding: 10px;
+}
+
+header nav ul li{
+    display: inline-block;
+   
+    margin-right: 20px;
+    
+}
+.barra{
+    background-image: linear-gradient(#e55300 5%,#fca66e 20%,#e55300 50%);
+    color: white;
+    font-weight: 600;
+}
+.titulo{
+    color: white;
+    text-shadow: 1px 1px 1px grey, -1px -1px 1px grey;
+}
+
+.tituloLogo{
+    padding: 15px 25px 30px;
+}
+.imagenesRedes{
+    position: absolute;
+    top: 30px;
+    right: 20px;
+}
+.seccion1, .aside{
+display: inline-block;
+vertical-align: top;
+}
+.seccion1{
+    width: 58%;
+}
+.seccion1 .secc1art1{
+    text-align: center;
+}
+.seccion1 .secc1art1 img {
+width: 98%;
+margin-left: 40px;
+}
+
+.aside{
+    width: 34%;
+    margin-left: 40px;
+}
+
+.secc1art2 h2{
+    color: grey;
+    font-weight: 820;
+}
+
+.imagePost{
+    border: 10px solid #cccccc;
+    margin-left: 50px;
+}
+
+.aside .barra{
+    border-radius: 20px;
+    text-align: center;
+    padding: 8px;
+    margin-top: 20px;
+    
+}
+.contenido-publicidad{
+    margin-top: 20px;
+    text-align: center;
+}
+.autor-post{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.parrafoPost{
+ 
+top: 630px;
+ width: 28%;
+ position: absolute;
+margin-left: 250px;
+   
+}
+
+.italica-post{
+    font-style: oblique;
+    color: grey;
+}
+.textoPost h2{
+   
+    margin-left: 50px;
+}
+
+.botonleer{
+    background-color: grey;
+    border-radius: 8px;
+    color: white;
+    padding: 8px;
+    font-weight: 1000;
+    font-style: oblique;
+    margin-left: 10px;
+    position: absolute;
+    margin-top: 150px;
+}
+
+.search{
+    margin-top: 20px;
+    border-radius: 8px;
+    margin-left: 50px;
+}
+
+.go{
+    border-radius: 100px;
+    color: white;
+    background-color: gray;
+}
+
+.categorias nav{
+    margin-top: 20px;
+}
+
+.listaCategoria{
+    margin-top: 10px;
+}
+
+
+
+
