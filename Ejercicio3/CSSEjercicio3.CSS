@@ -1,0 +1,49 @@
+body{
+    max-width: 1024px;
+    margin: 0 auto;
+    font-size: 12px;
+}
+header{
+    background-color: black;
+}
+
+header nav{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+header nav ul li{
+    display: inline-block;
+    color: white;
+    margin-left: 20px;
+}
+
+.buscador{
+   float: right;
+    color: white;
+    width: 110px;
+    background-color: black;
+    border-radius: 5px white;
+    height: 30px;
+    margin: 8px 5px 0 0;
+}
+
+section{
+    background-image: url("imagenes-ejercicioCSS3/bici.png");
+    background-size: cover;
+    height: 500px;
+    
+}
+
+#logo{
+    width: 110px;
+    margin-left: 10px;
+}
+
+#email{
+    display: inline-block;
+}
+
+#redes{
+    max-width: 170px;
+}
