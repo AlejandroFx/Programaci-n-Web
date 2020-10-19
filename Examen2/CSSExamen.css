@@ -1,0 +1,123 @@
+body{
+    max-width: 1024px;
+    margin: 0 auto;
+    font-size: 13px;
+}
+
+#logo{
+    width: 8%;
+    margin-left: 30px;
+    margin-bottom: 0px;
+}
+
+header nav{
+    display: inline-block;
+    background-color: #e4519f;
+    text-align: center;
+    width: 97%;
+    padding: 3px 0 3px 0;
+    
+    margin: 0 0 50px 0 ;
+   }
+
+   .home{
+       padding: 10px 25px 10px 25px;
+       border-radius: 5px;
+       background-color: white;
+       color: yellowgreen;
+   }
+header nav ul{
+   text-align: center;
+}
+
+header nav ul li{
+    display: inline-block;
+    color: white;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-weight: bold;
+}
+.textoHeader{
+    margin-left: 30px;
+    float: right;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    
+}
+.parrafoHeader{
+    font-size: 18px;
+    color: orange;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-right: 200px;
+}
+
+.textoArticulo{
+    display: inline-block;
+    width: 40%;
+    float: right;
+    text-align: center;
+    margin-right: 130px;
+    margin-top: 30px;
+}
+.textoArticulo h2{
+    color: cornflowerblue;
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+.parrafo1Articulo{
+    font-size: 18px;
+    font-weight: 900;
+}
+.parrafo2Articulo{
+    color: rgb(154, 255, 255);
+   
+}
+.persona{
+    width: 30%;
+    display: inline-block;
+    margin-left: 120px;
+}
+.persona img{
+    
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: orange 3px solid;
+}
+.botonleer{
+    background-color: rgb(175, 175, 41);
+    color: white;
+    border-radius: 5px;
+    padding: 8px 10px 8px 10px;
+    border: 0px;
+    font-size: 12px;
+}
+
+footer{
+   
+    display: inline-block;
+    width: 100%;
+    margin-top: 40px;
+    font-size: 11px;
+   
+    background-color: #e4519f;
+}
+
+.textoFooter{
+color: white;
+margin-left: 20px;
+float: left;
+margin-top: 20px;
+}
+.imagenesFooter{
+float: right;
+margin-top: 40px;
+margin-bottom: 40px;
+}
+#redes{
+    width: 10%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
