@@ -1,7 +1,9 @@
 <template>
    <div>
        <h1>Inicio de Configuración Músical</h1>
+       <hr>
        <h2>Seleccione el tipo de de genero de canción para su filtrado</h2>
+       <hr>
        <ul class="list-group">
            <li class="list-group-item">
             <select  class="form-control" v-model="genero">

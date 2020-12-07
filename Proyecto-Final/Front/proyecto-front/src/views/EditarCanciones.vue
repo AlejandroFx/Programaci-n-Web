@@ -50,26 +50,24 @@ export default {
     components: {
         Input
     },
-        data() {
+    data() {
         return {
             cancion: {
                 titulo: '',
                 artista: '',
-                año: ''                
+                año: '',
                  },
             erroresValidacion: false
         }
     },
      methods: {
-        ...mapActions(['obtenerCanciones', 'editarCanciones']),
+        ...mapActions(['editarCanciones']),
         guardarCanciones(){
              console.log(this.$route.params.titulo)
             if(this.validacionCanciones) {
                 this.erroresValidacion = false;
-             
                 this.editarCanciones({
                     titulo: this.$route.params.titulo,
-                  
                     params: this.cancion,
                     onComplete: (response) => {
                         console.log(response)
@@ -77,9 +75,11 @@ export default {
                             type: 'success',
                             title: response.data.mensaje
                         }),
+                       
                         this.$router.push({
                             name: 'Canciones'
                         })
+                     
                     },
                     onError: (error) => {
                         this.$notify({
@@ -104,18 +104,10 @@ export default {
                 this.cancion.año.trim() !== ''
             )
         }
-    },
-    created() {
-         this.obtenerCanciones({
-             titulo: this.$route.params.titulo,
-             onComplete: (response) => {
-                console.log(response.data.data)
-                Vue.set(this, 'cancion', response.data.data)
-             }
-         });
     }
 }
 </script>
 
 <style>
 </style>
+

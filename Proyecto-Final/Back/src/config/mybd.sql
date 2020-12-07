@@ -1,16 +1,22 @@
-create database Examen;
-use Examen;
-create table Libros (
+/*Tabla de Generos uwu*/
+create table Genero(
 id INT NOT NULL auto_increment,
-titulo varchar(80) NOT NULL,
-autor varchar(100) NOT NULL,
-numPagina varchar (4),
-añoPublicacion varchar (4),
+genero varchar(50) NOT NULL,
 primary key(id)
 );
+insert into Genero(genero) values ("Rock");
 
-drop table Libros;
 
-insert into Libros(titulo, autor, numPagina, añoPublicacion) values ("100 años de soledad", "Gabriel Garcia Marquez", "471", "1967");
-insert into Libros(titulo, autor, numPagina, añoPublicacion) values ("The Hunger Games", "Suzanne Collins", "471", "374");
-select * from Libros;
+
+/*Tabla de Canciones owo*/
+create table Cancion(
+id INT NOT NULL auto_increment,
+titulo varchar(50) NOT NULL,
+artista varchar(80) NOT NULL,
+año varchar(4) NOT NULL,
+genero varchar(50) NOT NULL,
+primary key(id)
+);
+insert into Cancion(titulo, artista, año, genero) values ("Livin on a prayer", "Bon Jovi", "1986", "Rock");
+
+select * from Cancion;
