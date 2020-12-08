@@ -12,7 +12,7 @@
                 mensajeError="El nombre del Genero es obligatorio"
            />
            
-           <b-button variant="primary" type="submit" class="float-right mt-3">
+           <b-button variant="warning" type="submit" >
                Agregar
             </b-button>
        </b-form>

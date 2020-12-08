@@ -31,15 +31,18 @@
            />
             
             <p>Seleccione el Genero de la Canción</p>
+            <div class="opcion">
             <select v-model="cancion.genero" class="form-control">
-             <option  v-for="generos in allGeneros" :key="generos.id" :genero="generos.genero">{{generos.genero}}</option>
+             <option class="opcion" v-for="generos in allGeneros" :key="generos.id" :genero="generos.genero">{{generos.genero}}</option>
                
             </select>
+            </div>
+           
 
 
            
            
-           <b-button variant="primary" type="submit" class="float-right mt-3">
+           <b-button variant="warning" type="submit" >
                Agregar la Canción
             </b-button>
        </b-form>
@@ -114,4 +117,5 @@ export default {
 </script>
 
 <style>
+
 </style>

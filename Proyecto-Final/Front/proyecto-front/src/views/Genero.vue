@@ -1,7 +1,7 @@
 <template>
   <div>
- <h1>Generos Músicales</h1>
-  <b-button to="/agregar-genero" variant="primary" class="float-right mb-3">Agregar Genero</b-button>
+ <h1>Géneros Músicales</h1>
+  <b-button to="/agregar-genero"  variant="warning" class="boton">Agregar Género</b-button>
   
  
  <Tabla :campos="campos" :items="allGeneros">
@@ -12,7 +12,7 @@
           variant="danger"
           class="ml-2"
         >
-          Eliminar este Genero
+          Eliminar este Género
         </b-button>
       </template>
  </Tabla>
@@ -85,3 +85,19 @@ mounted() {
   }
 }
 </script>
+
+<style>
+h1{
+  padding-top: 30px;
+  font-weight: bold;
+  color: darkslateblue;
+}
+b-button{
+  background-color: #f6f87e;
+  border-color: darkslateblue;
+  color: darkslateblue;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+</style>

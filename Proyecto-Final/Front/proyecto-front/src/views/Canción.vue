@@ -1,7 +1,7 @@
 <template>
   <div>
  <h1>Canciones</h1>
-  <b-button to="/agregar-cancion" variant="primary" class="float-right mb-3">Agregar Cancion</b-button>
+  <b-button to="/agregar-cancion" variant="warning"  >Agregar Canción</b-button>
   
  
  <Tabla :campos="campos" :items="allCanciones">
@@ -9,7 +9,7 @@
 
         <b-button
           @click="onEditar(item)"
-          variant="danger"
+          variant="outline-primary"
           class="ml-2"
         >
           Editar Canción
@@ -108,3 +108,13 @@ mounted() {
   }
 }
 </script>
+
+<style>
+.float-right{
+  margin-right: 250px;
+}
+h1{
+  margin-top: 20px;
+  font-weight: bold;
+}
+</style>
